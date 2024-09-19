@@ -28,7 +28,7 @@ body{
 }
 
 .card img{
-    width: 100%; /*não extrapola a imagem*/
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -51,19 +51,7 @@ body{
 @media screen and (max-width: 480px) {
    .container {
     margin-top: 2rem;
+    width: 90%;
    };
 }
 
-@media screen and (max-width: 320px) {
-    .container {
-        width: 300px;
-    }
-    
-}
-
-@media screen and (max-width: 280px) {
-    .container {
-        width: 265px;
-    }
-    
-}
